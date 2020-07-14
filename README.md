@@ -38,9 +38,10 @@ Kestrel used as an edge server without a reverse proxy server doesn't support sh
 
 ```bash
 # in this directory
-docker compose build
-docker compose up
+docker compose up --build
 ```
+
+Then visit [https://localhost:44392/](https://localhost:44392/)
 
 ```bash
 # in this directory
